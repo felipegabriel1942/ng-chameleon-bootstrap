@@ -5,3 +5,4 @@
 export * from './lib/ng-chameleon-bootstrap.service';
 export * from './lib/ng-chameleon-bootstrap.component';
 export * from './lib/ng-chameleon-bootstrap.module';
+export * from './lib/input/input.component';
