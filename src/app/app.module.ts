@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgChameleonBootstrapModule } from 'projects/ng-chameleon-bootstrap/src/public-api';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { NgChameleonBootstrapModule } from 'projects/ng-chameleon-bootstrap/src/
   ],
   imports: [
     BrowserModule,
-    NgChameleonBootstrapModule
+    NgChameleonBootstrapModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
